@@ -1,0 +1,179 @@
+
+<div id="home">
+    <self-Carousel></self-Carousel>
+</div>
+
+
+<!--Interests-->
+<div class="container-fluid title-self" id="interests">
+    <p>Explore Interest Areas</p>
+</div>
+
+<div class="container-fluid interests" >
+    <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-3">
+            <a href="#!/music">
+                <div class="panel panel-default text-center panel-max">
+                    <div class="panel-body">
+                        </br></br></br>
+                        <span class="glyphicon glyphicon-music icon-size"></span></br>
+                        <p>Music</p>
+                        </br></br></br>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3">
+            <a href="#!/movie">
+                <div class="panel panel-default text-center panel-max">
+                    <div class="panel-body">
+                        </br></br></br>
+                        <span class="glyphicon glyphicon-facetime-video icon-size"></span></br>
+                        <p>Movie</p>
+                        </br></br></br>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3">
+            <a href="#!/phone">
+                <div class="panel panel-default text-center panel-max">
+                    <div class="panel-body">
+                        </br></br></br>
+                        <span class="glyphicon glyphicon-phone icon-size"></span></br>
+                        <p>Phone</p>
+                        </br></br></br>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+</div>
+
+<!--About-->
+<!--1-->
+<div class="container-fluid title-self" id="about">
+    <p>About</p>
+</div>
+<div class="container-fluid about">
+    <div class="row">
+        <div class="col-sm-8">
+            <p style="font-size: 17px">This application is a Single-page application(SPA) Which means this web site that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from a server. </p>
+            <p style="font-size: 17px">The page does not reload at any point in the process, nor does control transfer to another page</p>
+            <p style="font-size: 17px">Three different kind of catalog(music, movie, phone) used one template but diffrent data-modle.Each catalog item's detail used diffrent template and data-modle</p>
+            <h3>Tools:HTML/CSS, JavaScript, Bootstrap, AngularJS, Linux, Apache, AWS EC2</h3>
+        </div>
+        <div class="col-sm-4" style="text-align: center">
+            <span class="glyphicon glyphicon-heart-empty logo"></span>
+        </div>
+    </div>
+</div>
+<!--2-->
+<div class="container-fluid title-self" id="news">
+    <p>News</p>
+</div>
+<div  class="container-fluid news">
+    <div class="row">
+        <div class="col-sm-4"  style="text-align: center">
+            <span class="glyphicon glyphicon-globe logo"></span>
+        </div>
+        <div class="col-sm-8">
+            <p style="font-size: 17px">click <button class="btn btn-default btn-mg" onclick="{location.href=''}">Here</button> to visit my new web application</p>
+            <p style="font-size: 17px">That application implemented by using LAMP(Linux, Apache, MySQL, PHP) model,The SignIn/SignUp system with the function of 30 seconds automatically session Timeout/Logout</p>
+            <p style="font-size: 17px">Be the second registered user of that web site!Why second? Cause I am the First user!^_^  ----Ping Xin </p>
+            <h3>Tools:HTML/CSS, JavaScript, Bootstrap, Linux, Apache, MySQL, PHP, AWS EC2</h3>
+        </div>
+    </div>
+</div>
+
+<!--contact me-->
+<!--<div id="contact" class="container-fluid bg-grey contactbg-self">
+    <h2 class="text-center">Contact</h2></br>
+    <div class="row">
+        <div class="col-sm-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Dallas, TX</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +00 6822480908</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> xinpingxian@gmail.com</p>
+        </div>
+        <div class="col-sm-7">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<!--Map-->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+    function myMap() {
+        var myCenter = new google.maps.LatLng(33.001553, -96.803209);
+        var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        var marker = new google.maps.Marker({position:myCenter});
+        marker.setMap(map);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2c-8unzWE68JSh_giFsETs16vhvFYWc8&callback=myMap"></script>
+
+
+
+<!--Nav Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ping's</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#interests">INTERESTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <!--<li><a href="#contact">CONTACT</a></li>-->
+                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Footer-->
+<footer class="text-center">
+    <!--data-toggle的tooltip是用来做鼠标划上去有提示字效果的-->
+    <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Made By Ping Xin</p>
+    <p><span class="glyphicon glyphicon-map-marker"></span> Dallas, TX</p>
+    <p><span class="glyphicon glyphicon-phone"></span> +0 682(248)0908</p>
+    <p><span class="glyphicon glyphicon-envelope"></span> xinpingxian@gmail.com</p>
+</footer>
+
+<script>
+    $(document).ready(function(){
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+</script>
+

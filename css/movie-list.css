@@ -1,0 +1,40 @@
+.movieList .bigPicture{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    /*这里是重点哦 占4份的100%*/
+    width: 100%;
+}
+.movieList .row h1{
+    margin-bottom: 100px;
+}
+.movieList ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.movieList .smallPic li{
+    height: 115px;
+    width: 115px;
+    border: 1px solid black;
+    /*设置成横行*/
+    display: inline-block;
+    margin-right: 5px;
+}
+.movieList li img{
+    height: 100px;
+    width: 100px;
+}
+
+/*background setting*/
+.whiteBg{
+    background-color: white;
+}
+.grayBg{
+    background-color: #FAFAFA;
+}
+
+/*split bar*/
+.splitBar{
+    padding: 8px;
+}

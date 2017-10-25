@@ -1,0 +1,116 @@
+<div class="container phoneList">
+    <!--The first part:pics-->
+    <div class="row whiteBg">
+        <div class="col-sm-4">
+            <img ng-src="{{$ctrl.phone.images[0]}}" class="bigPicture">
+        </div>
+        <div class="col-sm-8">
+            <h1>{{$ctrl.phone.name}}</h1>
+            <ul class="smallPic">
+                <li ng-repeat="img in $ctrl.phone.images" class="thumbnail">
+                    <img ng-src="{{img}}">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--The second part:Description-->
+    <div class="grayBg splitBar">
+        <h2>Phone Description</h2>
+    </div>
+    <div>
+        <p style="line-height: 1.5; padding: 30px">{{$ctrl.phone.description}}</p>
+    </div>
+
+    <!--The third part:phone details-->
+    <div class="grayBg splitBar">
+        <h2>Phone Details</h2>
+    </div>
+    <!--Third part:1-->
+    <div class="row details">
+        <div class="col-sm-4">
+            <ul class="specs">
+                <li>
+                    <span>Availability and Networks</span>
+                    <dl>
+                        <dt>Availability</dt>
+                        <dd ng-repeat="availability in $ctrl.phone.availability">{{availability}}</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="specs">
+                <li>
+                    <span>Battery</span>
+                    <dl>
+                        <dt>Type</dt>
+                        <dd>{{$ctrl.phone.battery.type}}</dd>
+                        <dt>Talk Time</dt>
+                        <dd>{{$ctrl.phone.battery.talkTime}}</dd>
+                        <dt>Standby time (max)</dt>
+                        <dd>{{$ctrl.phone.battery.standbyTime}}</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="specs">
+                <li>
+                    <span>Storage and Memory</span>
+                    <dl>
+                        <dt>RAM</dt>
+                        <dd>{{$ctrl.phone.storage.ram}}</dd>
+                        <dt>Internal Storage</dt>
+                        <dd>{{$ctrl.phone.storage.flash}}</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Third part:2-->
+    <div class="row details">
+        <div class="col-sm-4">
+            <ul class="specs">
+                <li>
+                    <span>Android</span>
+                    <dl>
+                        <dt>OS Version</dt>
+                        <dd>{{$ctrl.phone.android.os}}</dd>
+                        <dt>UI</dt>
+                        <dd>{{$ctrl.phone.android.ui}}</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="specs">
+                <li>
+                    <span>Size and Weight</span>
+                    <dl>
+                        <dt>Dimensions</dt>
+                        <dd ng-repeat="dim in $ctrl.phone.sizeAndWeight.dimensions">{{dim}}</dd>
+                        <dt>Weight</dt>
+                        <dd>{{$ctrl.phone.sizeAndWeight.weight}}</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="specs">
+                <li>
+                    <span>Hardware</span>
+                    <dl>
+                        <dt>CPU</dt>
+                        <dd>{{$ctrl.phone.hardware.cpu}}</dd>
+                        <dt>USB</dt>
+                        <dd>{{$ctrl.phone.hardware.usb}}</dd>
+                        <dt>Audio / headphone jack</dt>
+                        <dd>{{$ctrl.phone.hardware.audioJack}}</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>

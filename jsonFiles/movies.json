@@ -1,0 +1,51 @@
+[{
+  "age" : 20161209,
+  "id" : "la-la-land",
+  "name" : "La La Land",
+  "imageUrl" : "images-detail/movies/la-la-land.0.jpg",
+  "snippet" : "Written and directed by Academy Award (R) nominee Damien Chazelle, LA LA LAND tells the story of Mia [Emma Stone], an aspiring actress, and Sebastian [Ryan Gosling], a dedicated jazz musician, who are struggling to make ends meet in a city known for crushing hopes and breaking hearts. Set in modern day Los Angeles, this original musical about everyday life explores the joy and pain of pursuing your dreams.",
+  "type" : "movie"
+},{
+  "age" : 20170224,
+  "id" : "get-out",
+  "name" : "Get Out",
+  "imageUrl" : "images-detail/movies/get-out.0.jpg",
+  "snippet" : "Now that Chris and his girlfriend, Rose, have reached the meet-the-parents milestone of dating, she invites him for a weekend getaway upstate with Missy and Dean. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he could have never imagined.",
+  "type" : "movie"
+},{
+    "age" : 20160304,
+    "id" : "zootopia",
+    "name" : "Zootopia",
+    "imageUrl" : "images-detail/movies/zootopia.0.jpg",
+    "snippet" : "The modern mammal metropolis of Zootopia is a city like no other. Comprised of habitat neighborhoods like ritzy Sahara S\"quare and frigid Tundratown, it's a melting pot where animals from every environment live together-a place where no matter what you are, from the biggest elephant to the smallest shrew, you can be anything. But when rookie Officer Judy Hopps (voice of Ginnifer Goodwin) arrives, she discovers that being the first bunny on a police force of big, tough animals isn't so easy. Determined to prove herself, she jumps at the opportunity to crack a case, even if it means partnering with a fast-talking, scam-artist fox, Nick Wilde (voice of Jason Bateman), to solve the mystery. Walt Disney Animation Studios' \"Zootopia,\" a comedy-adventure directed by Byron Howard (\"Tangled,\" \"Bolt\") and Rich Moore (\"Wreck-It Ralph,\" \"The Simpsons\") and co-directed by Jared Bush (\"Penn Zero: Part-Time Hero\"), opens in theaters on March 4, 2016. Officer Judy Hopps (voice of Ginnifer Goodwin), the very first bunny on Zootopia's police force, jumps at the opportunity to crack her first case-even if it means partnering with fast-talking, scam-artist fox Nick Wilde (voice of Jason Bateman) to solve the mystery.",
+    "type" : "movie"
+  },{
+  "age" : 20160602,
+  "id" : "wonder-woman",
+  "name" : "Wonder Woman",
+  "imageUrl" : "images-detail/movies/wonder-woman.0.jpg",
+  "snippet" : "An Amazon princess (Gal Gadot) finds her idyllic life on an island occupied only by female warriors interrupted when a pilot (Chris Pine) crash-lands nearby. After rescuing him, she learns that World War I is engulfing the planet, and vows to use her superpowers to restore peace. Directed by Patty Jenkins (Monster).",
+  "type" : "movie"
+},{
+  "age" : 20170303,
+  "id" : "logan",
+  "name" : "Logan",
+  "imageUrl" : "images-detail/movies/logan.0.jpg",
+  "snippet" : "It's 2029. Mutants are gone--or very nearly so. An isolated, despondent Logan is drinking his days away in a hideout on a remote stretch of the Mexican border, picking up petty cash as a driver for hire. His companions in exile are the outcast Caliban and an ailing Professor X, whose singular mind is plagued by worsening seizures. But Logan's attempts to hide from the world and his legacy abruptly end when a mysterious woman appears with an urgent request--that Logan shepherd an extraordinary young girl to safety. Soon, the claws come out as Logan must face off against dark forces and a villain from his own past on a live-or-die mission, one that will set the time-worn warrior on a path toward fulfilling his destiny.",
+  "type" : "movie"
+},{
+  "age" : 20170707,
+  "id" : "spiderman",
+  "name" : "Spider-Man: Homecoming",
+  "imageUrl" : "images-detail/movies/spiderman.0.jpg",
+  "snippet" : "A young Peter Parker/Spider-Man (Tom Holland), who made his sensational debut in Captain America: Civil War, begins to navigate his newfound identity as the web-slinging super hero in Spider-Man: Homecoming. Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May (Marisa Tomei), under the watchful eye of his new mentor Tony Stark (Robert Downey, Jr.). Peter tries to fall back into his normal daily routine--distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man--but when the Vulture (Michael Keaton) emerges as a new villain, everything that Peter holds most important will be threatened.",
+  "type" : "movie"
+},{
+  "age" : 20161123,
+  "id" : "moana",
+  "name" : "Moana",
+  "imageUrl" : "images-detail/movies/moana.0.jpg",
+  "snippet" : "A young Peter Parker/Spider-Man (Tom Holland), who made his sensational debut in Captain America: Civil War, begins to navigate his newfound identity as the web-slinging super hero in Spider-Man: Homecoming. Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May (Marisa Tomei), under the watchful eye of his new mentor Tony Stark (Robert Downey, Jr.). Peter tries to fall back into his normal daily routine--distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man--but when the Vulture (Michael Keaton) emerges as a new villain, everything that Peter holds most important will be threatened.",
+  "type" : "movie"
+}
+]

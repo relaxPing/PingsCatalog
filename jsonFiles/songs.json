@@ -1,0 +1,58 @@
+[{
+  "age" : 20170000,
+  "id" : "rockstar",
+  "name" : "Rockstar",
+  "imageUrl" : "images-detail/music/rockstar.jpg",
+  "snippet" : "Post Malone,21 Savage",
+  "type" : "music"
+},{
+  "age" : 20170000,
+  "id" : "bodak-yellow",
+  "name" : "Bodak Yellow",
+  "imageUrl" : "images-detail/music/bodak-yellow.jpg",
+  "snippet" : "Cardi B",
+  "type" : "music"
+},{
+  "age" : 20170000,
+  "id" : "look-what-you-made-me-do",
+  "name" : "Look What You Made Me Do",
+  "imageUrl" : "images-detail/music/look-what-you-made-me-do.jpg",
+  "snippet" : "Tylor Swift",
+  "type" : "music"
+},{
+  "age" : 20170000,
+  "id" : "despacito",
+  "name" : "Despacito (Remix)",
+  "imageUrl" : "images-detail/music/despacito.jpg",
+  "snippet" : "Luis Fonsi & Daddy Yankee ft. Justin Bieber",
+  "type" : "music"
+},{
+  "age" : 20170000,
+  "id" : "havana",
+  "name" : "Havana",
+  "imageUrl" : "images-detail/music/havana.jpg",
+  "snippet" : "Camila Cabello ft. Young Thug",
+  "type" : "music"
+},{
+  "age" : 20170000,
+  "id" : "gorgeous",
+  "name" : "Gorgeous",
+  "imageUrl" : "images-detail/music/gorgeous.jpg",
+  "snippet" : "Tylor Swift",
+  "type" : "music"
+  },{
+  "age" : 20170000,
+  "id" : "shape-of-you",
+  "name" : "Shape of You",
+  "imageUrl" : "images-detail/music/shape-of-you.jpg",
+  "snippet" : "Ed Sheeran",
+  "type" : "music"
+},{
+  "age" : 20170000,
+  "id" : "too-good-at-goodbyes",
+  "name" : "Too Good at Goodbyes",
+  "imageUrl" : "images-detail/music/too-good-at-goodbyes.jpg",
+  "snippet" : "Sam Smith",
+  "type" : "music"
+}
+]

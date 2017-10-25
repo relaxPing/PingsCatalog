@@ -1,0 +1,50 @@
+<!--search-->
+<div class="jumbotron text-center">
+    <h1>Ping's</h1>
+    <p></p>
+    <form class="form-inline">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="	glyphicon glyphicon-search"></i></span>
+            <input ng-model="$ctrl.query" class="form-control" size="50" placeholder="Search" >
+        </div>
+        Sorted By:
+        <select ng-model="$ctrl.orderProp">
+            <option value="name">Alphabetical</option>
+            <option value="-age">Newest</option>
+        </select>
+    </form>
+</div>
+
+<!--Nav Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ping's</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--catalog-->
+<div class="myCatalog">
+    <div class="container">
+        <ul class="search-list">
+            <li ng-repeat="item in $ctrl.items | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
+                <a href="#!/{{item.type}}/{{item.id}}" class="thumb">
+                    <img src="{{item.imageUrl}}" alt="{{item.id}}">
+                </a>
+                <a href="#!/{{item.type}}/{{item.id}}" ><p>{{item.name}}</p></a>
+                <p>{{item.snippet}}</p>
+            </li>
+        </ul>
+    </div>
+</div>

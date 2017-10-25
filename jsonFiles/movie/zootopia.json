@@ -1,0 +1,23 @@
+{
+  "age" : 20160304,
+  "id" : "zootopia",
+  "name" : "Zootopia",
+  "image" : [
+    "images-detail/movies/zootopia.0.jpg",
+    "images-detail/movies/zootopia.1.jpg",
+    "images-detail/movies/zootopia.2.jpg",
+    "images-detail/movies/zootopia.3.jpg"
+  ],
+  "snippet" : "The modern mammal metropolis of Zootopia is a city like no other. Comprised of habitat neighborhoods like ritzy Sahara S\"quare and frigid Tundratown, it's a melting pot where animals from every environment live together-a place where no matter what you are, from the biggest elephant to the smallest shrew, you can be anything. But when rookie Officer Judy Hopps (voice of Ginnifer Goodwin) arrives, she discovers that being the first bunny on a police force of big, tough animals isn't so easy. Determined to prove herself, she jumps at the opportunity to crack a case, even if it means partnering with a fast-talking, scam-artist fox, Nick Wilde (voice of Jason Bateman), to solve the mystery. Walt Disney Animation Studios' \"Zootopia,\" a comedy-adventure directed by Byron Howard (\"Tangled,\" \"Bolt\") and Rich Moore (\"Wreck-It Ralph,\" \"The Simpsons\") and co-directed by Jared Bush (\"Penn Zero: Part-Time Hero\"), opens in theaters on March 4, 2016. Officer Judy Hopps (voice of Ginnifer Goodwin), the very first bunny on Zootopia's police force, jumps at the opportunity to crack her first case-even if it means partnering with fast-talking, scam-artist fox Nick Wilde (voice of Jason Bateman) to solve the mystery.",
+  "type" : "movie",
+
+  "rating":	"PG (for some thematic elements, rude humor and action)",
+  "genre": ["Action", "Adventure", "Animation", "Comedy"],
+  "directedBy": "Byron Howard, Rich Moore, Jared Bush",
+  "writtenBy":	"Jared Bush, Phil Johnston",
+  "inTheaters": "Mar 4, 2016  wide ",
+  "onDisc": "Jun 7, 2016 ",
+  "boxOffice":	"$341,264,012",
+  "runtime": "108 minutes ",
+  "studio": "Walt Disney Animation Studios "
+}

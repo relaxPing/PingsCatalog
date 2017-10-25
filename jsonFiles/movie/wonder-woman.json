@@ -1,0 +1,23 @@
+{
+  "age" : 20160602,
+  "id" : "wonder-woman",
+  "name" : "Wonder Woman",
+  "image" : [
+    "images-detail/movies/wonder-woman.0.jpg",
+    "images-detail/movies/wonder-woman.1.jpg",
+    "images-detail/movies/wonder-woman.2.jpg",
+    "images-detail/movies/wonder-woman.3.jpg"
+  ],
+  "snippet" : "An Amazon princess (Gal Gadot) finds her idyllic life on an island occupied only by female warriors interrupted when a pilot (Chris Pine) crash-lands nearby. After rescuing him, she learns that World War I is engulfing the planet, and vows to use her superpowers to restore peace. Directed by Patty Jenkins (Monster).",
+  "type" : "movie",
+
+  "rating":	"PG-13 (for sequences of violence and action, and some suggestive content)",
+  "genre": ["Action","Adventure","Drama", "Science Fiction","Fantasy"],
+  "directedBy": "Patty Jenkins",
+  "writtenBy":	"Allan Heinberg, Zack Snyder, Jason Fuchs",
+  "inTheaters": "Jun 2, 2017  wide ",
+  "onDisc": "Sep 19, 2017 ",
+  "boxOffice":	"$412,400,625",
+  "runtime": "141 minutes ",
+  "studio": "Warner Bros. Pictures "
+}

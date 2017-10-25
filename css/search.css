@@ -1,0 +1,63 @@
+.jumbotron {
+    background-color: white; /* Orange */
+    color: deepskyblue;
+}
+
+/*Nav bar*/
+.navbar{
+    font-size: 15px;
+    letter-spacing: 3px;
+    opacity: 0.92;
+}
+.navbar .navbar-header a{
+    color: deepskyblue !important;
+    font-weight: 900 !important;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: gray !important;
+    font-weight: 700 !important;
+}
+.navbar li a:hover,.navbar li a:active{
+    color: deepskyblue !important;
+    font-weight: 700 !important;
+}
+.navbar li a span{
+    color: deepskyblue;
+}
+
+
+/*Catalog*/
+.myCatalog{
+    background-color: #FAFAFA;
+}
+.myCatalog .search-list{
+    list-style: none;
+    margin: 20px;
+}
+.myCatalog .search-list li{
+    height: 115px;
+    padding-top: 10px;
+}
+.myCatalog .thumb{
+    float: left;
+    height: 100px;
+    margin: -0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    width: 100px;
+}
+/*这个非常重要  控制1行溢出后显示省略号*/
+.myCatalog .search-list li a p{
+    padding: 0px;
+    margin: 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+/*这个非常重要  控制多行溢出后显示省略号*/
+.myCatalog .search-list li p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}

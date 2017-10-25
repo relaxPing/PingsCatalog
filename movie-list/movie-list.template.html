@@ -1,0 +1,60 @@
+<div class="container movieList">
+    <!--The first part:pics-->
+    <div class="row whiteBg">
+        <div class="col-sm-4">
+            <img src="{{$ctrl.movie.image[0]}}" class="bigPicture">
+        </div>
+        <div class="col-sm-8">
+            <h1>Movie Name:{{$ctrl.movie.name}}</h1>
+            <ul class="smallPic">
+                <li ng-repeat="img in $ctrl.movie.image" class="thumbnail">
+                    <img ng-src="{{img}}">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--The second part:Description-->
+    <div class="grayBg splitBar">
+        <h2>Storyline</h2>
+    </div>
+    <div>
+        <p style="line-height: 1.5; padding: 20px">{{$ctrl.movie.snippet}}</p>
+    </div>
+
+    <!--The third part:Movie Info-->
+    <div class="grayBg splitBar">
+        <h2>Movie Info</h2>
+    </div>
+    <div>
+        <ul style="padding: 20px">
+            <li>
+                Rating : {{$ctrl.movie.rating}}
+            </li>
+            <li>
+                Genre : {{$ctrl.movie.genre.join(",")}}
+            </li>
+            <li>
+                Directed By : {{$ctrl.movie.directedBy}}
+            </li>
+            <li>
+                Written By : {{$ctrl.movie.writtenBy}}
+            </li>
+            <li>
+                In Theaters : {{$ctrl.movie.inTheaters}}
+            </li>
+            <li>
+                On Disc/Streaming : {{$ctrl.movie.onDisc}}
+            </li>
+            <li>
+                Box Office : {{$ctrl.movie.boxOffice}}
+            </li>
+            <li>
+                Runtime : {{$ctrl.movie.runtime}}
+            </li>
+            <li>
+                Studio : {{$ctrl.movie.studio}}
+            </li>
+        </ul>
+    </div>
+</div>
+

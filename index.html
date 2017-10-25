@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="test">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/movie-list.css">
+    <link rel="stylesheet" href="css/music-list.css">
+    <link rel="stylesheet" href="css/phone-list.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-sanitize.js"></script>
+    <!--route尽量放在最后 多次试验和前面调换顺序会导致页面加载不出来-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+
+    <script src="home/home.module.js"></script>
+    <script src="home/home.component.js"></script>
+    <script src="carousel/carousel.module.js"></script>
+    <script src="carousel/carousel.component.js"></script>
+    <script src="movie-list/movie-list.module.js"></script>
+    <script src="movie-list/movie-list.component.js"></script>
+    <script src="music-list/music-list.module.js"></script>
+    <script src="music-list/music-list.component.js"></script>
+    <script src="phone-list/phone-list.module.js"></script>
+    <script src="phone-list/phone-list.component.js"></script>
+
+    <script src="search/movie-search.module.js"></script>
+    <script src="search/movie-search.component.js"></script>
+    <script src="search/music-search.module.js"></script>
+    <script src="search/music-search.component.js"></script>
+    <script src="search/phone-search.module.js"></script>
+    <script src="search/phone-search.component.js"></script>
+</head>
+<body>
+    <div ng-view></div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<div class="selfCarousel">
+    <div uib-carousel active="active" interval="myInterval" >
+        <div uib-slide ng-repeat="slide in slides" index="slide.id">
+            <a href="#!/{{slide.name}}">
+                <img ng-src="{{slide.image}}" >
+            </a>
+        </div>
+    </div>
+</div>

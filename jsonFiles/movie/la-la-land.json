@@ -1,0 +1,23 @@
+{
+  "age" : 20161209,
+  "id" : "la-la-land",
+  "name" : "La La Land",
+  "image" : [
+    "images-detail/movies/la-la-land.0.jpg",
+    "images-detail/movies/la-la-land.1.jpg",
+    "images-detail/movies/la-la-land.2.jpg",
+    "images-detail/movies/la-la-land.3.jpg"
+  ],
+  "snippet" : "Written and directed by Academy Award (R) nominee Damien Chazelle, LA LA LAND tells the story of Mia [Emma Stone], an aspiring actress, and Sebastian [Ryan Gosling], a dedicated jazz musician, who are struggling to make ends meet in a city known for crushing hopes and breaking hearts. Set in modern day Los Angeles, this original musical about everyday life explores the joy and pain of pursuing your dreams.",
+  "type" : "movie",
+
+  "rating":	"PG-13",
+  "genre": ["Comedy", "Drama", "Musical","Performing Arts"],
+  "directedBy": "Damien Chazelle",
+  "writtenBy":	"Damien Chazelle",
+  "inTheaters": "Dec 9, 2016  Limited",
+  "onDisc": "Apr 25, 2017",
+  "boxOffice":	"$151,058,124",
+  "runtime": "128 minutes",
+  "studio": "Liongate Films"
+}

@@ -2,7 +2,7 @@
  * Created by X.P on 10/20/2017.
  */
 angular.
-    module('test').
+    module('pingsCatalog').
     config(['$locationProvider','$routeProvider',
     function configure($locationProvider,$routeProvider) {
         $locationProvider.hashPrefix('!');

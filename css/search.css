@@ -32,11 +32,13 @@
 }
 .myCatalog .search-list{
     list-style: none;
-    margin: 20px;
+    margin-top: 5px;
+    padding-left: 0px;
 }
 .myCatalog .search-list li{
     height: 115px;
     padding-top: 10px;
+    margin: 5px;
 }
 .myCatalog .thumb{
     float: left;

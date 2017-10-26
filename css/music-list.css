@@ -6,9 +6,10 @@
     word-spacing: 3px;
 }
 .musicDetail .detail img{
-    height: 400px;
+    width: 100%;
     border: 1.5px black solid;
     padding: 10px;
+    margin-top: 30px;
 }
 .musicDetail .detail h3,.musicDetail .detail p{
     font-weight:800;

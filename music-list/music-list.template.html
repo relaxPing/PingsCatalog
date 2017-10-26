@@ -1,20 +1,22 @@
 <div class="container musicDetail">
     <div >
-        <h2>Lyrics</h2>
+
     </div>
     <div class="row">
 
-        <div class="col-sm-6 lyrics">
-            <ul>
-                <li ng-repeat="lyric in $ctrl.music.lyrics track by $index">
-                   {{lyric}}
-                </li>
-            </ul>
-        </div>
-        <div class="col-sm-6 detail">
+
+        <div class="col-sm-5 detail">
             <img ng-src="{{$ctrl.music.imageUrl}}" alt="{{$ctrl.music.name}}">
             <h3>{{$ctrl.music.name}}</h3>
             <p>{{$ctrl.music.snippet}}</p>
+        </div>
+        <div class="col-sm-7 lyrics">
+            <h2><strong>Lyrics</strong></h2>
+            <ul>
+                <li ng-repeat="lyric in $ctrl.music.lyrics track by $index">
+                    {{lyric}}
+                </li>
+            </ul>
         </div>
     </div>
 </div>
